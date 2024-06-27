@@ -79,12 +79,13 @@ export default function PopularDishes() {
                           py: 1.5,
                           px: "var(--Card-padding)",
                           borderTop: "1px solid",
-                          height: "60px",
+                          height: "70px",
                         }}
                       >
                         <Typography
                           startDecorator={<DescriptionOutlinedIcon />}
                           textColor="neutral.300"
+                          sx={{ background: "#343434", borderRadius: "5px" }}
                         >
                           {product.productDesc}
                         </Typography>

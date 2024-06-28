@@ -264,9 +264,12 @@ export default function Products(props: ProductsProps) {
                   const imagePath = `${serverApi}/${product.productImages[0]}`;
                   const sizeVolume =
                     product.productCollection === ProductCollection.COFFEE ||
-                    ProductCollection.SMOOTHIE
+                    product.productCollection === ProductCollection.SMOOTHIE
                       ? product.productVolume + " litre"
-                      : product.productSize + " size";
+                      : product.productCollection === ProductCollection.SALAD ||
+                        product.productCollection === ProductCollection.CAKE
+                      ? product.productSize + " size"
+                      : product.productSize + " ";
 
                   return (
                     <Stack

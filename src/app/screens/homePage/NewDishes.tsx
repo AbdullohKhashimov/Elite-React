@@ -28,7 +28,7 @@ export default function NewDishes() {
     <div className={"new-products-frame"}>
       <Container>
         <Stack className={"main"}>
-          <Box className={"category-title"}>Fresh Menu</Box>
+          <Box className={"category-title"}>Fresh Picks</Box>
           <p style={{ color: "#181a20", fontSize: "12px" }}>
             latest added product list
           </p>
@@ -40,8 +40,8 @@ export default function NewDishes() {
                   const sizeVolume =
                     product.productCollection === ProductCollection.COFFEE ||
                     product.productCollection === ProductCollection.SMOOTHIE
-                      ? product.productVolume + "litre"
-                      : product.productSize + " size";
+                      ? product.productVolume + " litre"
+                      : product.productSize + " ";
                   return (
                     <Card
                       key={product._id}

@@ -268,7 +268,7 @@ export default function Products(props: ProductsProps) {
                       ? product.productVolume + " litre"
                       : product.productCollection === ProductCollection.SALAD ||
                         product.productCollection === ProductCollection.CAKE
-                      ? product.productSize + " size"
+                      ? product.productSize + ""
                       : product.productSize + " ";
 
                   return (

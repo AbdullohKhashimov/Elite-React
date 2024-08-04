@@ -149,6 +149,11 @@
   margin: 47px 2px 2px 2px;
   flex-direction: row;
   justify-content: space-between;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
 }
 
 .homepage .new-products-frame .main .card {

@@ -52,7 +52,6 @@
 }
 
 .home-navbar .navbar-container .menu .links .login-button {
-  /* background: #d7b686; */
   color: #f9ffff;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -127,7 +126,6 @@
   border-radius: 24px;
   text-align: center;
   text-decoration-line: underline;
-  /* background-color: #181a20; */
 }
 
 .home-navbar .navbar-container .detail .signup {
@@ -170,7 +168,6 @@
   font-weight: 700;
   background-repeat: no-repeat;
   color: #181a20;
-  /* text-decoration-line: underline; */
   display: flex;
   align-items: center;
   justify-content: center;

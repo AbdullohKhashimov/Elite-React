@@ -295,8 +295,6 @@
 
 .homepage .cards-frame .card {
   margin: 5px;
-  /* border-radius: 50px; */
-
   min-height: 305px;
   min-width: 305px;
   cursor: pointer;
@@ -329,7 +327,6 @@
   height: 645px;
   background: #f8f8ff;
   display: flex;
-  /* flex-direction: row; */
 }
 
 .homepage .events-frame .category-title {

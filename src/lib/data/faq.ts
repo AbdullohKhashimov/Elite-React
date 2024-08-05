@@ -23,6 +23,6 @@ export const faq = [
   },
   {
     question: "Who developed this platform?",
-    answer: "ITC Global developers developed this platform!",
+    answer: "This web-app is developed by Abdulloh Salimov (Tony)",
   },
 ];

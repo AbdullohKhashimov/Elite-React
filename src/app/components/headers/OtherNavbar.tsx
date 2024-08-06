@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable jsx-a11y/role-supports-aria-props */
 import {
   Box,
   Button,

@@ -417,21 +417,6 @@ export default function Products(props: ProductsProps) {
           </Stack>
         </Container>
       </div>
-
-      <div className={"address"}>
-        <Container>
-          <Stack className={"address-area"}>
-            <Box className={"title"}>Head Office</Box>
-            <iframe
-              style={{ marginTop: "60px" }}
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.059797529578!2d72.3637995!3d40.7524758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bced91ccce77f9%3A0xf07c16e5c23a5945!2sNavruz%20Mall!5e0!3m2!1sen!2s!4v1594309492722!5m2!1sen!2s"
-              width="1320"
-              height="500"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </Stack>
-        </Container>
-      </div>
     </div>
   );
 }

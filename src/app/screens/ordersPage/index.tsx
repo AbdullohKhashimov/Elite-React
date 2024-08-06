@@ -1,3 +1,6 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable jsx-a11y/alt-text */
 import { useState, SyntheticEvent, useEffect } from "react";
 import { Container, Stack, Box } from "@mui/material";
 import Tabs from "@mui/material/Tabs";

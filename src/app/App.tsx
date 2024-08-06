@@ -14,9 +14,9 @@ import { sweetErrorHandling, sweetTopSuccessAlert } from "../lib/sweetAlerts";
 import { Messages } from "../lib/config";
 import MemberService from "./services/MemberService";
 import { useGlobals } from "./hooks/useGlobals";
-import "../css/App.css";
+import "../css/app.css";
 import "../css/navbar.css";
-import "../css/footer.css";
+import "/footer.css";
 
 function App() {
   const location = useLocation();

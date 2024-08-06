@@ -16,7 +16,8 @@ import MemberService from "./services/MemberService";
 import { useGlobals } from "./hooks/useGlobals";
 import "../css/app.css";
 import "../css/navbar.css";
-import "/footer.css";
+import "../css/footer.css";
+import "../css/products.css";
 
 function App() {
   const location = useLocation();
